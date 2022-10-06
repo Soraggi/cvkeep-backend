@@ -2,11 +2,12 @@
   "name": "cvkeep-backend",
   "version": "1.0.0",
   "description": "Cv Keep REST API",
-  "main": "main.js",
+  "main": "index.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
+    "start": "node index.js",
     "lint": "eslint .",
     "serve": "npm run lint && NODE_ENV=$npm_config_stage nodemon index.js",
     "serve:debug": "DEBUG=express:* npm run serve",
