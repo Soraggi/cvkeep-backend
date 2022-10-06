@@ -1,1 +1,2 @@
 runtime: nodejs14
+entrypoint: node index.js
